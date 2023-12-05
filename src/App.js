@@ -10,8 +10,8 @@ function App() {
           <div className="card-container">
               <MyCard name={'Andrii Borkovych'} additionalInfo={'UI/UX designer'} imageUrl={imageUrl} />
               <MyCard name={''} additionalInfo={''} imageUrl={''}/>
-              <MyCard name={''} additionalInfo={additionalInfo} imageUrl={imageUrl}/>
-              <MyCard name={''} additionalInfo={additionalInfo} imageUrl={imageUrl}/>
+              <MyCard name={''} additionalInfo={''} imageUrl={''}/>
+              <MyCard name={''} additionalInfo={''} imageUrl={''}/>
           </div>
       </div>
   );
