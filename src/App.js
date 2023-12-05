@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import MyCard from './CardInfo.jsx'
 import imageUrl from './images/andrii.jpg'
