@@ -10,7 +10,7 @@ function App() {
 
   return (
       <div>
-        <h1>My Profile Card</h1>
+        <h1>Our dream team</h1>
         <MyCard name={"Illia Dudchyk"} additionalInfo={"👨‍💻Developer"} photo={IlliaPhoto} />
       </div>
   );
