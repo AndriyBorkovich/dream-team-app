@@ -6,7 +6,7 @@ import IlliaPhoto from './images/illia-anime.jpg'
         <h1>My dream team</h1>
         <div className="illia-block">
             <p className="name illiaN">Illia Dudchyk</p>
-            <div><p className="position illiaP">Developer</p></div>
+            <div><p className="position illiaP">👨‍💻Developer</p></div>
             <img className="illia-photo" src = {IlliaPhoto}></img>
         </div>
         </div>
