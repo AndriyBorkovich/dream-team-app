@@ -1,5 +1,7 @@
 import React from 'react';
+
 const MyCard = ({ name, additionalInfo, imageUrl }) => {
+
     return (
         <div className="card">
             <div className="card-header">
