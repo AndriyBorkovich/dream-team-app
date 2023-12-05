@@ -1,15 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
 import MyCard from './CardInfo.jsx'
+import imageUrl from './images/andrii.jpg'
 
 function App() {
-  const myName = 'Your Name';
-  const additionalInfo = 'Additional Information about you.';
-
   return (
-      <div>
-        <h1>My Profile Card</h1>
-        <MyCard name={myName} additionalInfo={additionalInfo} />
+      <div className="container">
+          <h1>Our dream team</h1>
+          <div className="card-container">
+              <MyCard name={'Andrii Borkovych'} additionalInfo={'UI/UX designer'} imageUrl={imageUrl} />
+              <MyCard name={''} additionalInfo={''} imageUrl={''}/>
+              <MyCard name={''} additionalInfo={additionalInfo} imageUrl={imageUrl}/>
+              <MyCard name={''} additionalInfo={additionalInfo} imageUrl={imageUrl}/>
+          </div>
       </div>
   );
 }
