@@ -1,3 +1,4 @@
+
 .illia-photo {
   width: 300px;
   height: 300px;
@@ -10,18 +11,38 @@
   margin-left: 20px;
 }
 .name {
-  font-family: 'Arial', sans-serif; /* Choose your preferred font-family */
-  font-size: 25px; /* Adjust the font size as needed */
-  font-weight: bold; /* Use 'normal' or 'bold' as desired */
-  color: #333; /* Set your preferred text color */
-  margin-bottom: 10px; /* Adjust spacing as needed */
-  /* Add more styles as per your design requirements */
+  font-family: 'Arial', sans-serif; 
+  font-size: 25px; 
+  font-weight: bold; 
+  color: #333; 
+  margin-bottom: 10px; 
 }
 .position {
-  font-family: 'Arial', sans-serif; /* Choose your preferred font-family */
-  font-size: 25px; /* Adjust the font size as needed */
-  font-weight: bold; /* Use 'normal' or 'bold' as desired */
-  color: #333; /* Set your preferred text color */
-  margin-bottom: 10px; /* Adjust spacing as needed */
-  /* Add more styles as per your design requirements */
+  font-family: 'Arial', sans-serif; 
+  font-size: 25px; 
+  font-weight: bold; 
+  color: #333; 
+  margin-bottom: 10px; 
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 300px;
+  margin: 20px;
+}
+
+.card-header {
+  background-color: #f0f0f0;
+  padding: 10px;
+  text-align: center;
+}
+
+.card-body {
+  padding: 20px;
+}
+.card-photo {
+  width: 300px;
+  height: 300px;
 }
