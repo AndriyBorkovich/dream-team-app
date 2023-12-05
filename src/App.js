@@ -1,24 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import MyCard from './CardInfo.jsx'
 
 function App() {
+  const myName = 'Your Name';
+  const additionalInfo = 'Additional Information about you.';
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div>
+        <h1>My Profile Card</h1>
+        <MyCard name={myName} additionalInfo={additionalInfo} />
+      </div>
   );
 }
 
